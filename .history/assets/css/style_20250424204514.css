@@ -1,0 +1,93 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --heading-font: "PT Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+a {
+    color: inherit;
+    /* text-decoration: none; */
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+a,
+img,
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.header-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 496px;
+    background-image: url(../img/banner/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header .nav {
+    display: flex;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1.1px;
+}

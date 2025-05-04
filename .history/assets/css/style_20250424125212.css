@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*  */
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: serif;
+}
